@@ -46,7 +46,7 @@ export default {
     background: url('../assets/img/svg/line4.svg') no-repeat;
     width: 2251.5px;
     height: 256.02px;
-    left: -331px;
+    left: -10px;
     top: 2895px;
     }
       &.line5{
