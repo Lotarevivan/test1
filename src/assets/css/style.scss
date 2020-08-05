@@ -1,0 +1,123 @@
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/Geometria.eot');
+	src: local('☺'), url('../fonts/Geometria.woff') format('woff'), url('../fonts/Geometria.ttf') format('truetype'), url('../fonts/Geometria.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/Geometria-Medium.eot');
+	src: local('☺'), url('../fonts/Geometria-Medium.woff') format('woff'), url('../fonts/Geometria-Medium.ttf') format('truetype'), url('../fonts/Geometria-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/Geometria-Bold.eot');
+	src: local('☺'), url('../fonts/Geometria-Bold.woff') format('woff'), url('../fonts/Geometria-Bold.ttf') format('truetype'), url('../fonts/Geometria-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/Geometria-Bold.eot');
+	src: local('☺'), url('../fonts/Geometria-Bold.woff') format('woff'), url('../fonts/Geometria-Bold.ttf') format('truetype'), url('../fonts/Geometria-Bold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+
+
+#app *{
+	box-sizing: border-box;
+	font-family: 'Geometria', sans-serif;
+	font-style: normal;
+}
+
+
+*::before, *::after {
+	box-sizing: inherit;
+}
+section{
+	color:white;
+	transition: 0.1s ease-in;
+}
+
+
+
+.benefits_cards > .wrapper > .main__title_h2{
+	margin-bottom: 76px;
+}
+.main__title_h3_white{
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+.orange{
+	color:#C0965C;
+}
+.personal__assistant{
+	margin-bottom: 188px;
+}
+.personal__assistant_container{
+	display: flex;
+	justify-content: center
+}
+
+.button__normal{
+	width: 290px;
+	height:80px;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #C0965C;
+	border-radius: 10px;
+	border:0;
+	margin-bottom:302px;
+	transition: .3s;
+}
+.button__normal:hover{
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #C0965C;
+}
+.button__normal.disabled{
+	background: #191919;
+}
+.personal__assistant_img{
+	position: relative;
+	width: 374px;
+	height: 551px;
+	background: url('../img/svg/personal__assistant.png') no-repeat;
+  }
+
+  .personal__assistant_info{
+	margin:auto 0;
+  }
+  .personal__assistant_info_element{
+	padding-left: 156px;
+	display: flex;
+	margin-bottom: 40px;
+  }
+  .personal__assistant_info_element:first-child{
+	padding-top: 30%;
+  }
+  .personal__assistant_info_element_text{
+	  max-width: 190px;
+	  margin-left: 18px;
+	  font-size: 14px;
+	  line-height: 20px;	
+  }
+  .card_contaier_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom:147px;
+  }
+ 
