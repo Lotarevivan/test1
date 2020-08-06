@@ -1,4 +1,5 @@
 # retail
+# Ivan Lotarev <lotarevivan@gmail.com>
 
 ## Project setup
 ```
