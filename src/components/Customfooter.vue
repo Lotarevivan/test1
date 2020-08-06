@@ -52,6 +52,7 @@ footer {
 }
 .footer__section_logo {
   div{
+    font-weight: bold;
     font-size: 14px;
     line-height: 26px;
     color: #BBBBBB;
@@ -76,7 +77,7 @@ footer {
     color: #6C6C6C;
   }
    .phone{
-    font-weight: 400;
+    font-weight: bold;
     font-size: 24px;
     line-height: 45px;
     color: #BBBBBB;

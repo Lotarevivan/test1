@@ -87,6 +87,7 @@ export default {
 
 }
 .get__card_container {
+  font-weight: bold;
   margin-left: -10%;
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -172,10 +172,10 @@ export default {
       if(checkout.every(elem => elem )){
        const data={ name:this.Name.value,
             email:this.Email.value,
-            phone:this.Phone.value,
+            phone:+this.Phone.value.replace(/\D+/g,""),
             country:this.Country.value,
             rules:this.Rules.value,
-            password:'asdasdasdsasad'}
+            }
           // "Отправляем" на фейк сервер,
         console.log(JSON.stringify(data))
 
